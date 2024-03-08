@@ -12,6 +12,7 @@ app.use(cors())
 app.use(hpp())
 app.use(helmet())
 app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
 app.use(cors());
 
 
