@@ -16,7 +16,6 @@ app.use(bodyParser.json())
 app.use(cors());
 
 
-
 app.use('/api/v1',router);
 
 mongoose.connect('mongodb+srv://minbarapps:minbarapps@todo.jveh43o.mongodb.net/todo').then(()=>{

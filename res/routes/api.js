@@ -25,23 +25,8 @@ router.delete('/delete-task/:id', userAuth, todoController.deleteTask)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 router.get('*', function(req, res){
     res.send('Not found - 404')
 })
-
 
 module.exports = router;
